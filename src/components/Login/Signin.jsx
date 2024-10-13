@@ -5,13 +5,15 @@ import "./Signin.css"
 const Signin = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const [token, setToken] = useState(localStorage.getItem("token") || "");
+    const [token, setToken] = useState("");
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
 
+
     useEffect(() => {
-        if (token) {
+        const tok = localStorage.getItem("token")
+        if (tok) {
             navigate("/");
         }
     }, []);
