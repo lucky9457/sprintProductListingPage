@@ -11,12 +11,7 @@ const Signin = () => {
 
 
 
-    useEffect(() => {
-        const tok = localStorage.getItem("token")
-        if (tok) {
-            navigate("/");
-        }
-    }, []);
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
