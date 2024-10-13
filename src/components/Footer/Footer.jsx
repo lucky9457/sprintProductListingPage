@@ -57,7 +57,7 @@ const Footer = () => {
                         {isMettaMuseOpen ? <IoIosArrowUp className='arrow' /> : <IoIosArrowDown className='arrow' />}
                     </div>
                     {isMettaMuseOpen && (
-                        <div className="paracontainer">
+                        <div className="paracontainermob">
                             <p>About Us</p>
                             <p>Stories</p>
                             <p>Artisans</p>
@@ -66,6 +66,14 @@ const Footer = () => {
                             <p>EU Compliances Docs</p>
                         </div>
                     )}
+                    <div className="paracontainer">
+                        <p>About Us</p>
+                        <p>Stories</p>
+                        <p>Artisans</p>
+                        <p>Boutiques</p>
+                        <p>Contact Us</p>
+                        <p>EU Compliances Docs</p>
+                    </div>
                 </div>
 
 
@@ -75,7 +83,7 @@ const Footer = () => {
                         {isQuickLinksOpen ? <IoIosArrowUp className='arrow' /> : <IoIosArrowDown className='arrow' />}
                     </div>
                     {isQuickLinksOpen && (
-                        <div className="paracontainer">
+                        <div className="paracontainermob">
                             <p>Orders & Shipping</p>
                             <p>Join/Login as a Seller</p>
                             <p>Payment & Pricing</p>
@@ -85,6 +93,15 @@ const Footer = () => {
                             <p>Terms & Conditions</p>
                         </div>
                     )}
+                    <div className="paracontainer">
+                        <p>Orders & Shipping</p>
+                        <p>Join/Login as a Seller</p>
+                        <p>Payment & Pricing</p>
+                        <p>Return & Refunds</p>
+                        <p>FAQs</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                    </div>
                 </div>
 
                 <div className="followussection">

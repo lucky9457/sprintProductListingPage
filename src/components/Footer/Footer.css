@@ -176,8 +176,27 @@
         color: white;
         cursor: pointer;
     }
+
+    .paracontainer {
+        display: none;
+    }
+
+    .paracontainermob {
+        font-size: 13px;
+        color: #d9d8d8;
+    }
+
+    .paracontainermob p:hover {
+        color: #FFFFFF;
+        cursor: pointer;
+    }
 }
 
 .footersection p {
     color: rgb(172, 170, 170);
+}
+
+.paracontainer p:hover {
+    color: #FFFFFF;
+    cursor: pointer;
 }
