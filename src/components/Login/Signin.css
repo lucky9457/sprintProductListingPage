@@ -21,13 +21,16 @@
 
 .loginbutton {
     width: 100%;
-    background-color: lightblue;
+    background-color: rgb(102, 197, 228);
 
 }
 
 .logincard input {
     padding: 5px;
     outline: none;
+    background: none;
+    border: solid 0.5px grey;
+    border-radius: 5px;
 
 }
 
