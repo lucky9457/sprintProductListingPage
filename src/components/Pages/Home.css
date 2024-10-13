@@ -1,0 +1,103 @@
+.deschead {
+    font-family: Simplon Norm;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+
+
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.descpara {
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+
+
+
+}
+
+.TaglineContainer {
+    width: 100%;
+    border-bottom: solid 0.5px rgb(216, 216, 216);
+    padding-bottom: 20px;
+}
+
+.filterheadsection {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    border-bottom: solid 0.5px rgb(216, 216, 216);
+
+
+}
+
+.selectbar {
+    outline: none;
+    border: none;
+}
+
+.filtertabhide {
+    display: flex;
+    width: 20%;
+    font-weight: bold;
+
+    justify-content: space-between;
+}
+
+.hidefilter {
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.home {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.filterandproductssection {
+    display: flex;
+    width: 100% !important;
+    overflow: hidden;
+
+}
+
+@media (max-width:700px) {
+    .filterandproductssection {
+        padding-left: 0px;
+    }
+
+    .filterheadsection {
+        padding-bottom: 10px;
+    }
+
+}
+
+.filterbutton {
+    display: none;
+}
+
+@media (max-width:700px) {
+    .filtertabhide {
+        display: none;
+    }
+
+    .filterbutton {
+        display: block;
+        background: none;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        width: 50%;
+        border-width: 0px;
+    }
+
+    .filterbutton::after {
+        border: none;
+    }
+
+}

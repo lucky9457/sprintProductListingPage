@@ -1,0 +1,32 @@
+.mainlogin {
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.logincard {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px grey;
+    padding: 40px;
+    border-radius: 10px;
+    width: 25%;
+    height: 20%;
+
+
+}
+
+.loginbutton {
+    width: 100%;
+    background-color: lightblue;
+
+}
+
+.logincard input {
+    padding: 5px;
+    outline: none;
+
+}

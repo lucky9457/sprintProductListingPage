@@ -1,0 +1,183 @@
+.footersection {
+    background-color: black;
+
+
+    margin: 0px !important;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.topfootersection {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 0.5px grey;
+    padding-bottom: 30px;
+}
+
+.befrst {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.getintouchcontainer p {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.emailcontainer {
+    display: flex;
+    gap: 10px;
+}
+
+.emailcontainer input {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.emailcontainer button {
+    background-color: black;
+    color: #3f3d3d;
+    border: solid 1px #3f3d3d;
+}
+
+.contactus h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.contactus p {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.currencycontainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currencycontainer img {
+    border-radius: 50%;
+}
+
+.aboutransactions {
+    font-size: 10px;
+}
+
+.headingcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.headingcontainer h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.bottomfootersection {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.arrow {
+    color: #FFFFFF;
+}
+
+.arrow {
+    display: none;
+}
+
+.paracontainer p {
+    font-size: 13px;
+    color: #d9d8d8;
+}
+
+@media (max-width:700px) {
+    .arrow {
+        display: block;
+    }
+
+}
+
+.followussection h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.socialiconscontainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: aliceblue;
+}
+
+.paymentbackgrond img {
+    width: 40px;
+    height: 20px;
+}
+
+.walletcontainer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.paymentbackgrond {
+    background-color: rgb(136, 136, 153);
+    padding: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+
+.copyright {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+@media (max-width:700px) {
+    .topfootersection {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .getintouchcontainer {
+        border-bottom: solid 0.5px grey;
+        padding-bottom: 10px;
+    }
+
+    .getintouchcontainer input {
+        width: 200px;
+    }
+
+    .bottomfootersection {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .headingcontainer {
+        gap: 20px;
+    }
+
+    .paracontainer {
+        transition: ease-in-out 1s;
+    }
+
+    .paracontainer p:hover {
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.footersection p {
+    color: rgb(172, 170, 170);
+}
