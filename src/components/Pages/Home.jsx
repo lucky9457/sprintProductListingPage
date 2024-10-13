@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 
 import React, { useCallback, useState } from 'react'
 import "./Home.css"
-import Productspage from "../productspage/Productspage";
+import Productspage from "../Productspage/Productspage";
 
 
 const Home = () => {
