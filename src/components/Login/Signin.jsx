@@ -14,7 +14,7 @@ const Signin = () => {
         if (token) {
             navigate("/");
         }
-    }, [token, navigate]);
+    }, []);
 
     const handleSubmit = (e) => {
         e.preventDefault();
