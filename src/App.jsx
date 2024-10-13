@@ -9,7 +9,7 @@ import Signin from './components/Login/Signin'
 import ProtectedRoute from './components/ProtectedRoute'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <Routes>
