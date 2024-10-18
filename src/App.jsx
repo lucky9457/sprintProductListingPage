@@ -15,7 +15,7 @@ function App() {
     <Routes>
     
       <Route path='/' element={
-        <ProtectedRoute>
+       
           <div className='mainpage'>
 
             <div className='main'>
@@ -23,8 +23,7 @@ function App() {
             </div>
             <Footer />
           </div>
-        </ProtectedRoute>
-
+        
       } />
 
     </Routes>
